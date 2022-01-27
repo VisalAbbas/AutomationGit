@@ -16,23 +16,8 @@ public class UITest
 	@Test
 	public void startBrowser(String browserName)
 	{
-		System.out.println("Parameter value is "+browserName);
-		WebDriver driver=null;
+		System.out.println("Demo Project");
 		
-		if(browserName.contains("Chrome"))
-		{
-			WebDriverManager.chromedriver().setup();
-			 driver=new ChromeDriver();
-		}
-		else if(browserName.contains("Edge"))
-		{
-			WebDriverManager.edgedriver().setup();
-			 driver=new EdgeDriver();
-		}
-		driver.manage().window().maximize();
-		driver.get("https://opensource-demo.orangehrmlive.com/");
-		Assert.assertTrue(driver.getTitle().contains("Orange"), "Title does not match");
-		driver.quit();
 	}
 	
 	

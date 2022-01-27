@@ -8,7 +8,7 @@ pipeline
         {
             steps 
             {
-                echo 'Build App'
+                echo 'Build Pipeline'
             }
         }
 
@@ -16,7 +16,7 @@ pipeline
         {
             steps 
             {
-                echo 'Test App'
+                echo 'Test Pipeline'
             }
         }
 
@@ -24,7 +24,7 @@ pipeline
         {
             steps 
             {
-                echo 'Deploy App'
+                echo 'Deploy Pipeline'
             }
         }
     }

@@ -24,7 +24,7 @@ pipeline
         {
             steps 
             {
-                echo 'Deploy Pipeline'
+                echo 'Deploy Pipe'
             }
         }
     }
